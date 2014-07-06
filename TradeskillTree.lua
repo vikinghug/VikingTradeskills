@@ -25,7 +25,7 @@ function TradeskillTree:Init()
   local tDependencies = {}
 	if Apollo.GetAddon("VikingTooltips") then
 		tDependencies = { "VikingTooltips" }
-  else
+  elseif Apollo.GetAddon("Tooltips") then
   	tDependencies = { "ToolTips" }
   end
   Apollo.RegisterAddon(self, false, "", tDependencies)
