@@ -66,7 +66,7 @@ function TradeskillContainer:OnInterfaceMenuListHasLoaded()
 end
 
 function TradeskillContainer:OnWindowManagementReady()
-	Event_FireGenericEvent("WindowManagementAdd", {wnd = self.wndMain, strName = Apollo.GetString("CRB_Tradeskills")})
+	Event_FireGenericEvent("WindowManagementAdd", {wnd = self.wndMain, strName = "Viking Tradeskills"})
 end
 
 function TradeskillContainer:OnClose(wndHandler, wndControl)
