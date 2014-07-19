@@ -1,4 +1,4 @@
-<Addon Name="VikingTradeskills" APIVersion="9" Author="VikinghugUI" Version="1.0" Description="">
+<Addon Name="VikingTradeskills" APIVersion="9" Author="VikinghugUI" Version="0.0.1" Description="">
     <Script Name="TradeskillTree.lua"/>
     <Form Name="TradeskillTree.xml"/>
     <Script Name="TradeskillSchematics.lua"/>
